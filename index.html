@@ -89,5 +89,12 @@
 			</div>
 		</div>
 	</div>
+	<script>
+		let stateList = document.getElementById('state-list')
+		stateList.onchange = function () {
+			let selected = this.value //"this" refers to the previous object or element declared
+			console.log(selected)
+		}
+	</script>
 </body>
 </html>
